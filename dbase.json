@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "judul_sementara": "Jejak Darah di Kandang Bambu",
+    "genre": "Misteri / Thriller Lokal",
+    "gaya_bahasa": "Kasual, gelap, penuh ketegangan, menggunakan sedikit bahasa pergaulan lokal yang natural",
+    "premis_cerita": "Seorang pemuda harus memecahkan misteri hilangnya penjaga malam di sebuah peternakan ayam kampung setelah menemukan sebuah buku catatan bersimbah darah."
+  },
+  "dunia_dan_latar": {
+    "waktu": "Masa kini, saat musim hujan yang membuat jalanan desa selalu becek",
+    "tempat_utama": [
+      "Desa pinggiran kota",
+      "Peternakan ayam kampung KUB",
+      "Gubuk penjaga malam"
+    ],
+    "aturan_khusus": "Tidak ada unsur gaib atau hantu. Ini murni kejahatan manusia dan misteri detektif."
+  },
+  "karakter": [
+    {
+      "nama": "Agus",
+      "peran": "Protagonis",
+      "penampilan_fisik": "Pemuda 20-an tahun, sering memakai jaket hoodie pudar dan sepatu boots karet.",
+      "sifat": "Cerdas, teliti, tapi sering meragukan dirinya sendiri.",
+      "tujuan_utama": "Mencari tahu ke mana hilangnya Mang Udin, sang penjaga malam peternakan.",
+      "kelemahan": "Panikan jika berada di tempat gelap terlalu lama."
+    },
+    {
+      "nama": "Mang Udin",
+      "peran": "Korban / Orang Hilang",
+      "penampilan_fisik": "Pria paruh baya, selalu membawa senter kuning besar.",
+      "sifat": "Pendiam, menyimpan banyak rahasia desa.",
+      "tujuan_utama": "Menjaga peternakan dari pencuri.",
+      "kelemahan": "Punya hutang di masa lalu."
+    }
+  ],
+  "bab": [
+    {
+      "bab_ke": 1,
+      "judul_bab": "Buku Catatan di Bawah Karung Pakan",
+      "sudut_pandang": "Orang ketiga yang fokus pada Agus",
+      "lokasi": "Gudang pakan peternakan ayam kampung",
+      "plot_utama": "Agus datang ke peternakan di pagi hari yang gerimis untuk mengecek stok. Dia menyadari Mang Udin tidak ada di posnya. Saat memeriksa gudang pakan, Agus menemukan buku catatan Mang Udin terselip di bawah karung, dengan bercak darah basah di sampulnya.",
+      "konflik_bab_ini": "Agus harus memutuskan apakah akan lapor polisi atau membaca buku itu dulu.",
+      "ending_bab": "Agus membuka halaman terakhir buku itu dan melihat deretan angka koordinat serta satu nama yang sangat ia kenal."
+    },
+    {
+      "bab_ke": 2,
+      "judul_bab": "Koordinat Buta",
+      "sudut_pandang": "Orang ketiga yang fokus pada Agus",
+      "lokasi": "Kamar Agus dan area belakang peternakan",
+      "plot_utama": "Agus membawa buku itu pulang. Ia melacak angka koordinat tersebut di internet dan menyadari itu mengarah ke area sumur tua di belakang peternakan ayam. Malam harinya, dengan bermodal nekat, Agus mendatangi sumur tersebut di tengah hujan lebat.",
+      "konflik_bab_ini": "Rasa takut dan cuaca buruk menghalangi pencariannya di area sumur tua.",
+      "ending_bab": "Senter Agus menyorot sesuatu yang mengkilap di dasar sumur, namun tiba-tiba ia mendengar langkah kaki sepatu bot menginjak ranting di belakangnya."
+    },
+    {
+      "bab_ke": 3,
+      "judul_bab": "Langkah Bot Karet",
+      "sudut_pandang": "Orang ketiga yang fokus pada Agus",
+      "lokasi": "Area sumur tua di belakang peternakan",
+      "plot_utama": "Agus panik dan mematikan senternya. Bersembunyi di balik pohon pisang, ia melihat sesosok bayangan membuang sebuah karung goni besar ke dalam sumur. Agus mencoba merekam kejadian itu diam-diam menggunakan ponselnya.",
+      "konflik_bab_ini": "Ponsel Agus lupa di-silent dan tiba-tiba ada notifikasi pesan masuk yang memecah keheningan.",
+      "ending_bab": "Bayangan itu menoleh ke arah tempat persembunyian Agus dan mencabut sebilah celurit panjang. Agus harus berlari menyelamatkan nyawanya."
+    },
+    {
+      "bab_ke": 4,
+      "judul_bab": "Dihantui bayangan",
+      "plot_utama": "Agus berhasil sampai dirumah dengan gemeratan dan keringat dingin, diamatanya nanar, mulutny tak mampu berkata-kata, ia membisu saat ditanya sama adiknya, Laras.",
+      "konflik_bab_ini": "3 hari 3 malam Agus seperti orang linglung, tak menyahut jika disapa. ada sosok yang selalu menghantuinya yang membuat agus kadang tiba-tiba ketakutan dan menjerit.",
+      "ending_bab": "Laras sebagai satu-satunya keluarga agus yang tersisa meminta pertolongan Ustad Khalid untuk mengobati Agus."
+    }
+  ]
+}

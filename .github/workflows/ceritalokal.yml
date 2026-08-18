@@ -1,0 +1,41 @@
+name: Auto Generate Novel Episode Daily
+
+on:
+  schedule:
+    # Jalan otomatis setiap hari jam 00:00 UTC (Jam 07:00 WIB / 08:00 WITA)
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Memungkinkan Bosku untuk klik tombol "Run Workflow" secara manual dari GitHub
+
+jobs:
+  build-and-generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirement.txt
+
+      - name: Run Auto Generate Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python auto_cerita.py
+
+      - name: Commit and Push Changes back to Repo
+        run: |
+          git config --global user.name "Auto Novel Bot"
+          git config --global user.email "bot@github.com"
+          git add .
+          git commit -m "Auto-generate Episode baru via GitHub Actions [skip ci]" || exit 0
+          git push
