@@ -30,7 +30,7 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python auto_cerita.py
+          python ceritalokal.py
 
       - name: Commit and Push Changes back to Repo
         run: |
